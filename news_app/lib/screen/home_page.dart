@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
 
   String sortBy = NewsEnum.popularity.name;
   int currentIndex = 0;
-  List menuList = [];
+
   @override
   Widget build(BuildContext context) {
     final providerData = Provider.of<NewsProvider>(context);
